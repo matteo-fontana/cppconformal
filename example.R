@@ -3,7 +3,9 @@ library(devtools)
 
 # This loads the package in the current folder, without installing it
 # (useful for development).
-devtools::load_all()
+#devtools::load_all()
+library(cppconformal)
+
 
 X0 = 5
 X = rnorm(200, sd=10)
